@@ -1,4 +1,8 @@
-package mylab.lab7;
+/*Create a method which accepts an array of integer elements 
+ * and return the second smallest element in the array
+*/
+
+package mylab.lab6;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,12 +11,19 @@ public class Exercise5 {
 	
 	public int getSecondSmallest(int arr[]) {
 		
+		//create an array list and store array elements in the list
+		
 		ArrayList<Integer> list = new ArrayList<>();
 		
 		for(int n:arr) {
 			list.add(n);
 		}
+		
+		//sort using collections
+		
 		Collections.sort(list);
+		
+		//after sorting second smallest num will be at index 1
 		
 		return list.get(1);
 	}
