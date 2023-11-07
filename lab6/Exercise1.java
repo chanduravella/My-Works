@@ -1,3 +1,5 @@
+/*Create a method which accepts a hash map and return the values of the map in sorted order as a List.*/
+
 package mylab.lab6;
 
 import java.util.*;

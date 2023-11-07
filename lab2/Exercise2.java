@@ -39,10 +39,7 @@ public class Exercise2 {
 		Exercise2 E2 = new Exercise2();
 		String[] res = E2.sortStrings(arr);
 		
-		for(String A:res) {
-		
-		System.out.println(A);
-		}
+		System.out.println(Arrays.toString(res));
 	}
 
 }
